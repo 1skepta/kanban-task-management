@@ -11,7 +11,7 @@ function Sidebar() {
         <span>ALL BOARDS (3)</span>
         <div className="flex items-center">
           <ul className="flex flex-col">
-            <li className="flex flex-row">
+            <li>
               <div className="flex items-center">
                 <KeyboardMusic className="mr-4" /> <span>Platform Launch</span>
               </div>
