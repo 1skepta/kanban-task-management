@@ -1,11 +1,12 @@
 import { ChevronDown, Plus, MoreVertical } from "lucide-react";
+// import logo from "logo.png";
 
 function Header() {
   return (
     <div className="bg-white flex justify-between px-6 py-6">
-      <div className="flex">
+      <div className="flex items-center">
         <div>
-          <span>Logo</span>
+          <img src="logo.png" alt="company logo" className="w-9" />
         </div>
         <div className="flex items-center">
           <h1 className="font-semibold text-xl">Platform Launch</h1>
