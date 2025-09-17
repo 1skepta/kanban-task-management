@@ -7,23 +7,29 @@ function Sidebar() {
         <Eye />
       </div> */}
 
-      <div className="bg-white hidden md:flex flex-col px-6">
+      <div className="bg-white hidden md:flex flex-col px-9">
         <span>ALL BOARDS (3)</span>
         <div className="flex items-center">
           <ul className="flex flex-col">
             <li className="flex flex-row">
               <div className="flex items-center">
-                <KeyboardMusic /> <span>Platform Launch</span>
+                <KeyboardMusic className="mr-4" /> <span>Platform Launch</span>
               </div>
             </li>
             <li>
-              <KeyboardMusic /> <span>Marketing Plan</span>
+              <div className="flex items-center">
+                <KeyboardMusic className="mr-4" /> <span>Marketing Plan</span>
+              </div>
             </li>
             <li>
-              <KeyboardMusic /> <span>Roadmap</span>
+              <div className="flex items-center">
+                <KeyboardMusic className="mr-4" /> <span>Roadmap</span>
+              </div>
             </li>
             <li>
-              <KeyboardMusic /> <span>Create New Board</span>
+              <div className="flex items-center">
+                <KeyboardMusic className="mr-4" /> <span>Create New Board</span>
+              </div>
             </li>
           </ul>
         </div>
