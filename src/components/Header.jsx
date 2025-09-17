@@ -5,8 +5,9 @@ function Header() {
   return (
     <div className="bg-white flex justify-between px-6 py-6">
       <div className="flex items-center">
-        <div>
+        <div className="flex">
           <img src="logo.png" alt="company logo" className="w-9" />
+          <h1 className="font-bold ml-3 text-xl">kanban</h1>
         </div>
         <div className="flex items-center">
           <h1 className="font-semibold text-xl">Platform Launch</h1>
