@@ -85,7 +85,7 @@ function TodoList() {
                     {...provided.droppableProps}
                     ref={provided.innerRef}
                     className={`p-4 rounded-lg min-h-[300px] transition-colors duration-200 ${
-                      snapshot.isDraggingOver ? "bg-green-100" : "bg-[#E9EFFA]"
+                      snapshot.isDraggingOver ? "bg-[#E9EFFA]" : "bg-[#E9EFFA]"
                     }`}
                   >
                     {column.items.map((item, index) => (
