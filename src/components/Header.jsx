@@ -32,7 +32,7 @@ function Header() {
       <div className="flex items-center">
         <button
           onClick={() => setOpen(true)}
-          className="bg-[#635fc7] px-3 py-1 rounded-4xl flex items-center"
+          className="bg-[#635fc7] px-3 py-1 rounded-4xl flex items-center cursor-pointer"
         >
           <Plus size={20} className="text-white font-semibold" />
         </button>
