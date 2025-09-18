@@ -72,7 +72,7 @@ function TodoList() {
   };
 
   return (
-    <div className="p-6 bg-[#828FA3] min-h-screen">
+    <div className="p-6 bg-[#E9EFFA] min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-center"></h1>
       <DragDropContext onDragEnd={onDragEnd}>
         <div className="flex gap-6 justify-center">
@@ -85,7 +85,7 @@ function TodoList() {
                     {...provided.droppableProps}
                     ref={provided.innerRef}
                     className={`p-4 rounded-lg min-h-[300px] transition-colors duration-200 ${
-                      snapshot.isDraggingOver ? "bg-green-100" : "bg-white"
+                      snapshot.isDraggingOver ? "bg-green-100" : "bg-[#E9EFFA]"
                     }`}
                   >
                     {column.items.map((item, index) => (
@@ -99,7 +99,7 @@ function TodoList() {
                             ref={provided.innerRef}
                             {...provided.draggableProps}
                             {...provided.dragHandleProps}
-                            className={`p-4 mb-3 bg-gray-50 border rounded shadow-sm ${
+                            className={`p-4 mb-3 bg-gray-50  rounded shadow-sm ${
                               snapshot.isDragging ? "bg-blue-100" : "bg-white"
                             }`}
                           >
