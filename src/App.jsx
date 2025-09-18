@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header />
       <div className="flex">
-        {/* <Sidebar /> */}
+        <Sidebar />
         {/* <EmptyTask /> */}
         <TodoList />
       </div>

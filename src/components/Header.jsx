@@ -1,5 +1,4 @@
 import { ChevronDown, Plus, MoreVertical } from "lucide-react";
-// import logo from "logo.png";
 
 function Header() {
   return (
