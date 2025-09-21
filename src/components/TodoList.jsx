@@ -16,7 +16,7 @@ function TodoList() {
   };
 
   return (
-    <div className="p-6 bg-[#E9EFFA] min-h-screen">
+    <div className="p-6 bg-[#E9EFFA] min-h-screen w-full flex-1">
       <DragDropContext onDragEnd={onDragEnd}>
         <div className="flex gap-6 justify-center">
           {Object.entries(columns).map(([id, column]) => (
