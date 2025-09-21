@@ -53,13 +53,13 @@ function Header() {
             <div className="flex justify-end gap-2">
               <button
                 onClick={() => setOpen(false)}
-                className="px-4 py-2 rounded-lg bg-gray-200"
+                className="px-4 py-2 rounded-lg bg-gray-200 cursor-pointer"
               >
                 Cancel
               </button>
               <button
                 onClick={handleAdd}
-                className="px-4 py-2 rounded-lg bg-[#635fc7] text-white"
+                className="px-4 py-2 rounded-lg bg-[#635fc7] text-white cursor-pointer"
               >
                 Add
               </button>
